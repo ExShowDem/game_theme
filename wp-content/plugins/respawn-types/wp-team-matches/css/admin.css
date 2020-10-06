@@ -1,0 +1,997 @@
+/*
+    WP-TeamMatches
+    (c) 2011 Andrej Mihajlov
+
+    This file is part of WP-TeamMatches.
+
+    WP-TeamMatches is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    WP-TeamMatches is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with WP-TeamMatches.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.wp-team-matches-clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.wp-team-matches-clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .wp-team-matches-clearfix {
+    display: block;
+}
+
+* html .wp-team-matches-clearfix {
+    height: 1%;
+}
+
+.column-game_title {
+	width: 140px;
+}
+
+.column-game_title .icon {
+	float: left;
+	margin: 2px;
+}
+
+
+
+.wp-team-matches-acl-table .check-column {
+    padding: 8px 0 0 3px;
+}
+
+.wp-team-matches-settings .column-permissions ul {
+    margin: 0;
+}
+
+.wp-team-matches-settings .permitted-games {
+    margin-top: -4px;
+}
+
+.wp-team-matches-settings .permitted-games .game {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 4px;
+}
+
+.wp-team-matches-settings .permitted-games .game + .game {
+    margin-left: 4px;
+}
+
+.wp-team-matches-settings .permitted-games .all {
+    padding: 0 5px;
+    border-radius: 3px;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.wp-team-matches-settings .column-user_login .display-name {
+    font-weight: bold;
+}
+
+.wp-team-matches-settings .column-user_login .login {
+    color: #aaa;
+}
+
+.wp-team-matches-teams-table .column-title .icon {
+    float: left;
+    display: block;
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+.wp-team-matches-teams-table .column-title {
+    overflow: hidden;
+}
+
+.wp-team-matches-teams-table .column-title .home-team {
+    display: inline;
+    padding: 1px 8px;
+    border-radius: 9px;
+    margin-left: 5px;
+    background-color: #aaa;
+    color: #fff;
+    text-transform: lowercase;
+}
+
+.wp-team-matches-maps-table .column-screenshot,
+.wp-team-matches-maps-table .column-screenshot .icon {
+    width: 80px;
+}
+
+.wp-team-matches-teams-table .column-title .icon.placeholder,
+.wp-team-matches-maps-table .column-screenshot .icon.placeholder {
+    height: 80px;
+    background: #eee;
+}
+
+.wp-team-matches-matcheditor h2 {
+	position: relative;
+}
+
+.wp-team-matches-matcheditor button > .dashicons {
+    vertical-align: middle;
+}
+
+.wp-team-matches-mapeditor .screenshot img,
+.wp-team-matches-team-editor .screenshot img,
+.wp-team-matches-gameeditor .screenshot img {
+    margin: 20px 0;
+    border: 1px solid #dfdfdf;
+	padding: 2px;
+	background-color: #fff;
+}
+
+.wp-team-matches-matcheditor textarea#description {
+    height: 5em;
+    resize: vertical;
+}
+
+#mapsite {
+    margin-left: -20px;
+}
+
+.wp-team-matches-matcheditor .match-results {
+    margin: 0;
+}
+
+.wp-team-matches-matcheditor .match-results .map {
+    margin: 10px 0 0 20px;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wp-team-matches-matcheditor .match-results .teams {
+
+}
+
+.wp-team-matches-matcheditor .match-results .team2-inline {
+	margin: 10px 0;
+}
+
+.wp-team-matches-matcheditor .match-results .team2-inline input {
+	width: 170px;
+	float: left;
+}
+
+.wp-team-matches-matcheditor .match-results .team2-inline select,
+.wp-team-matches-matcheditor .match-results .team2-inline .select2 {
+	margin-left: 5px;
+	width: 150px;
+	float: left;
+}
+
+.wp-team-matches-matcheditor .match-results select.team-select {
+    width: 150px;
+}
+
+.wp-team-matches-matcheditor .match-results .leftcol {
+    float: left;
+    width: 150px;
+}
+
+.wp-team-matches-matcheditor .match-results .map img.screenshot {
+    border: 1px solid #222;
+    display: block;
+}
+
+.wp-team-matches-matcheditor .match-results .map .title {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wp-team-matches-matcheditor .match-results .map .title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wp-team-matches-matcheditor .match-results .map select,
+.wp-team-matches-matcheditor .match-results .map .select2 {
+    margin-top: 5px;
+    width: 150px;
+}
+
+.wp-team-matches-matcheditor .match-results .round {
+    /*width: 130px;*/
+    margin-bottom: 0.5em;
+}
+
+/* see http://stackoverflow.com/a/39885072/351305 */
+.wp-team-matches-matcheditor .match-results input:focus::-webkit-contacts-auto-fill-button {
+    visibility: hidden;
+    display: none !important;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+}
+
+.wp-team-matches-matcheditor .match-results .round,
+.wp-team-matches-matcheditor .match-results .add-round
+{
+    margin-left: 160px;
+}
+
+.wp-team-matches-matcheditor .match-results .add-map {
+    margin: 20px 0;
+}
+
+.wp-team-matches-matcheditor .match-results .remove {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.wp-team-matches-matcheditor .gallery {
+    margin-left: -20px;
+}
+
+.wp-team-matches-matcheditor .gallery .gallery-item,
+.wp-team-matches-matcheditor .gallery .sortable-placeholder {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 128px;
+    height: 128px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wp-team-matches-matcheditor .gallery .gallery-item:hover {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1e8cbe;
+}
+
+.wp-team-matches-matcheditor .gallery .gallery-item a.remove {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    padding: 2px;
+    text-decoration: none;
+    display: none;
+    background: #1e8cbe;
+    color: rgba(255,255,255,.8);
+}
+
+.wp-team-matches-matcheditor .gallery .gallery-item a.remove:hover {
+    color: #fff;
+}
+
+.wp-team-matches-matcheditor .gallery .gallery-item:hover a.remove {
+    display: block;
+}
+
+.wp-team-matches-matcheditor .gallery .sortable-placeholder {
+    border: 1px dashed #ddd;
+    background-color: #eee;
+}
+
+.wp-team-matches-matcheditor .gallery .gallery-item .centered {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.wp-team-matches-matcheditor .gallery .gallery-item img {
+    max-height: 100%;
+}
+
+.wp-team-matches-matcheditor .gallery-settings {
+    margin-left: -10px;
+    padding: 20px 0;
+}
+
+.wp-team-matches-matcheditor .gallery-settings .gallery-option {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.available-games img {
+	vertical-align: middle;
+}
+
+.linkbar {
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.linkbar li {
+    list-style: none;
+    float: left;
+    margin: 0 0 0 15px;
+    padding: 0;
+}
+
+.linkbar li a {
+    display: block;
+    text-decoration: none;
+}
+
+.linkbar li a:before {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 20px/1 'dashicons';
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.linkbar li.view-post a:before {
+    content: "\f177";
+}
+.linkbar li.edit-post a:before {
+    content: "\f464";
+}
+.linkbar li.post-comments a:before {
+    content: "\f101";
+}
+
+/*
+ * Onboarding
+ */
+
+.wp-team-matches-onboarding-page p.submit > input {
+    min-width: 100px;
+}
+
+.wp-team-matches-onboarding-page input.game-name {
+    display: block;
+    width: 100%;
+}
+
+.wp-team-matches-onboarding-page input[type="file"] {
+    display: block;
+    width: 100%;
+}
+
+.wp-team-matches-onboarding-page .wp-filter .search-form {
+    float: none;
+    display: block;
+}
+
+.wp-team-matches-onboarding-page .wp-filter .search-form .wp-filter-search {
+    width: 100%;
+    display: block;
+}
+
+.wp-team-matches-onboarding-page .left-column,
+.wp-team-matches-onboarding-page .right-column {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wp-team-matches-onboarding-page .left-column {
+    width: 30%;
+    float: left;
+    margin-right: 10%;
+}
+
+.wp-team-matches-onboarding-page .right-column {
+    float: right;
+    width: 60%;
+}
+
+/**
+ * Import
+ */
+
+.wp-team-matches-cloud-items {
+    margin: 0;
+    padding: 0;
+    margin-left: -10px;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item {
+    display: block;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    width: calc(50% - 10px);
+    min-height: 276px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item-approved {
+    border-color: green;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item-pending {
+    border-color: orange;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-review-status {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0 2px;
+    background: orange;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item-approved .wp-team-matches-review-status{
+    background: green;
+    color: #fff;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-top {
+    padding: 20px 20px 10px;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-bottom {
+    background-color: #fafafa;
+    border-top: 1px solid #dedede;
+    padding: 10px 20px 10px;
+    overflow: hidden;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-title h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-icon {
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .author {
+    font-style: italic;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .maps {
+    display: block;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .maps li {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-left: 4px;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .maps li:first-child {
+    margin-left: 0;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .maps .screenshot {
+    width: 150px;
+    height: 150px;
+    display: block;
+    /*border: 1px solid #eee;*/
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .maps .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    font-family: monospace;
+    line-height: 1em;
+    font-size: 13px;
+
+    color: #fff;
+
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 6px 0;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-rating,
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-published,
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-downloaded,
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-author
+{
+    line-height: 1.5em;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-published,
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-author,
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-install
+{
+    float: right;
+    clear: right;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-title,
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-rating,
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-downloaded {
+    float: left;
+    clear: left;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-rating {
+    margin: 0;
+    padding: 0;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-published,
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-rating
+{
+    margin-bottom: 4px;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-title,
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-install {
+    margin-bottom: 10px;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .num-ratings {
+    line-height: 20px; /* match with dash-icons */
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .star-rating {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item.wp-team-matches-cloud-item-voted .star-rating .star-full,
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item.wp-team-matches-cloud-item-votes-enabled .star-rating:hover .star-full {
+    -webkit-text-stroke: 1px #e6a700;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item .wp-team-matches-cloud-item-column-rating .spinner {
+    margin-top: 0;
+}
+
+.wp-team-matches-cloud-items .wp-team-matches-cloud-item.wp-team-matches-cloud-item-updating-vote .wp-team-matches-cloud-item-column-rating .spinner {
+    visibility: visible;
+}
+
+@media screen and ( max-width: 782px ) {
+    .wp-team-matches-cloud-items {
+        margin-left: 0;
+    }
+
+    .wp-team-matches-cloud-items .wp-team-matches-cloud-item {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        float: none;
+    }
+}
+
+/* onboarding page is split into two columns so break items faster */
+@media screen and ( max-width: 1200px ) {
+    .wp-team-matches-onboarding-page .wp-team-matches-cloud-items {
+        margin-left: 0;
+    }
+
+    .wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-cloud-item {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        float: none;
+    }
+}
+
+/* Override .wp-filter media queries to avoid search form breaking on two lines.  */
+.wp-team-matches-cloud-page .wp-filter .search-form {
+    float: right;
+    max-width: none;
+    position: static;
+}
+
+.wp-team-matches-cloud-page .wp-team-matches-upload-form,
+.wp-team-matches-cloud-page .wp-team-matches-publish-form {
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 380px;
+    overflow: hidden;
+}
+
+.wp-team-matches-cloud-page .wp-team-matches-publish-form .form-table .regular-text {
+    width: 100%;
+    display: block;
+}
+
+.wp-team-matches-cloud-page .wp-team-matches-publish-form .submit {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.wp-team-matches-onboarding-page .wp-team-matches-api-error,
+.wp-team-matches-onboarding-page .wp-team-matches-install-help,
+.wp-team-matches-cloud-page .wp-team-matches-api-error,
+.wp-team-matches-cloud-page .wp-team-matches-install-help {
+    color: #999;
+    font-size: 1.4em;
+    font-style: normal;
+    margin: 0;
+    padding: 40px 0 0;
+    text-align: center;
+}
+
+.wp-team-matches-onboarding-page .wp-team-matches-api-error.small,
+.wp-team-matches-onboarding-page .wp-team-matches-install-help.small,
+.wp-team-matches-cloud-page .wp-team-matches-api-error.small,
+.wp-team-matches-cloud-page .wp-team-matches-install-help.small {
+    padding: 10px 0 0;
+    font-size: 1em;
+}
+
+.wp-team-matches-cloud-page .wp-team-matches-upload-form input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+}
+
+.wp-team-matches-cloud-page .wp-team-matches-upload-form input[type=file] {
+    width: 70%;
+}
+
+.wp-team-matches-cloud-page .wp-team-matches-upload-form .wp-team-matches-install-button {
+    float: right;
+    max-width: 30%;
+}
+
+.wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-install-button,
+.wp-team-matches-cloud-page .wp-team-matches-cloud-items .wp-team-matches-install-button {
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+.wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-install-button,
+.wp-team-matches-cloud-page .wp-team-matches-cloud-items .wp-team-matches-install-button {
+    color: #3498db;
+    border-color: #3498db;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-install-button:disabled,
+.wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-install-button[disabled],
+.wp-team-matches-cloud-page .wp-team-matches-cloud-items .wp-team-matches-install-button:disabled,
+.wp-team-matches-cloud-page .wp-team-matches-cloud-items .wp-team-matches-install-button[disabled] {
+    background-color: transparent !important;
+    color: #aaa !important;
+    border-color: #aaa !important;
+}
+
+.wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-install-button:hover,
+.wp-team-matches-cloud-page .wp-team-matches-cloud-items .wp-team-matches-install-button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-install-button.active,
+.wp-team-matches-cloud-page .wp-team-matches-cloud-items .wp-team-matches-install-button.active {
+    color: #2ecc71;
+    border-color: #2ecc71;
+    box-shadow: none;
+}
+
+.wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-install-button.active:hover,
+.wp-team-matches-cloud-page .wp-team-matches-cloud-items .wp-team-matches-install-button.active:hover {
+    color: #fff;
+    border-color: #2ecc71;
+    background-color: #2ecc71;
+    box-shadow: none;
+}
+
+.wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-install-button,
+.wp-team-matches-cloud-page .wp-team-matches-cloud-items .wp-team-matches-install-button,
+.wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-install-button:active,
+.wp-team-matches-cloud-page .wp-team-matches-cloud-items .wp-team-matches-install-button:active,
+.wp-team-matches-onboarding-page .wp-team-matches-cloud-items .wp-team-matches-install-button.active,
+.wp-team-matches-cloud-page .wp-team-matches-cloud-items .wp-team-matches-install-button.active {
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+}
+
+.wp-team-matches-cloud-login {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background: #fff;
+    height: 100%;
+
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-header {
+    text-align: center;
+}
+
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-header span.dashicons {
+    font-size: 100px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-header img {
+    width: 80px;
+    margin: 0 0 10px;
+}
+
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-header h3 {
+    margin: 0 0 40px;
+}
+
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers {
+    text-align: center;
+    margin: 0;
+}
+
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers li {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers li:last-child {
+    margin-bottom: 0;
+}
+
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers .button {
+    font-size: 16px;
+    line-height: 36px;
+    display: block;
+    height: auto;
+    text-align: left;
+    box-shadow: none;
+    border-radius: 0;
+    border:0;
+    padding-left: 50px;
+    background: #f7f7f7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers .button:hover {
+    color: #fff;
+    background-color: #3b5998;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 50%);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 50%);
+}
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers .button.steam:hover {
+    background-color: #377695;
+}
+
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers .button span.dashicons { line-height: inherit; }
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers .button i.fa { font-size: 20px; width: 20px; height: 20px; }
+
+/* I think WP has some transitions set on .dashicons. Reset them. */
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers .button span.dashicons,
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers .button i.fa {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.wp-team-matches-cloud-login .wp-team-matches-cloud-login-content ul.wp-team-matches-cloud-login-providers .button {
+    -webkit-transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+/*
+ * Update account thickbox
+ */
+
+.wp-team-matches-cloud-update-account {
+    padding: 0;
+    background: #fff;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.wp-team-matches-cloud-update-account-header {
+    text-align: center;
+}
+
+.wp-team-matches-cloud-update-account-wrap {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.wp-team-matches-cloud-update-account-form {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0 30px;
+}
+
+.wp-team-matches-cloud-update-account-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.wp-team-matches-cloud-update-account-picture {
+    padding: 1px;
+    height: 50px;
+}
+
+.wp-team-matches-cloud-update-account-fullname {
+    flex: 1 1 auto;
+    font-size: 1.5em;
+    min-width: 0;
+}
+
+
+/**
+ * Select2 compatibility with WordPress admin
+ */
+
+.select2 {
+    margin: 1px;
+}
+
+.select2-results__option {
+    margin: 0;
+}
+
+
+
+
+/**
+ * Cloud
+ */
+
+.wp-team-matches-cloud-account-holder {
+    float: right;
+    margin-top: 9px;
+}
+
+.wp-team-matches-cloud-account {
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 1em;
+    padding: 6px;
+}
+
+.wp-team-matches-cloud-account-why-login {
+    padding: 6px 0 6px 6px;
+}
+
+.wp-team-matches-cloud-account, .wp-team-matches-cloud-account .wp-team-matches-cloud-account-username img {
+    border-radius: 3px;
+}
+
+.wp-team-matches-cloud-account .wp-team-matches-cloud-account-username,
+.wp-team-matches-cloud-account .wp-team-matches-cloud-account-logout {
+    display: inline-block;
+}
+
+.wp-team-matches-cloud-account .wp-team-matches-cloud-account-logout span {
+    color: #555;
+}
+
+.wp-team-matches-cloud-account .wp-team-matches-cloud-account-username img {
+    vertical-align: middle;
+    height: 24px;
+}
+
+
+/* Thickbox tweaks */
+
+body.wp-team-matches #TB_title {
+    float: left;
+    height: 1px;
+}
+
+body.wp-team-matches #TB_ajaxWindowTitle {
+    display: none;
+}
+
+body.wp-team-matches .tb-close-icon {
+    left: auto;
+    right: -30px;
+    color: #eee;
+    -webkit-transition: color .1s ease-in-out, background .1s ease-in-out;
+    transition: color .1s ease-in-out, background .1s ease-in-out;
+}
+
+body.wp-team-matches #TB_ajaxContent {
+    padding: 0;
+    width: 100% !important;
+}
+
+body.wp-team-matches #TB_closeWindowButton:focus,
+body.wp-team-matches #TB_closeWindowButton:focus .tb-close-icon,
+body.wp-team-matches .tb-close-icon:focus,
+body.wp-team-matches .tb-close-icon:hover {
+    color: #00a0d2;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+body.wp-team-matches .tb-close-icon:before {
+    content: "\f335";
+    font-size: 32px;
+}
+
+/* move plugin install close icon to top on narrow screens */
+@media screen and ( max-width: 830px ) {
+    body.wp-team-matches .tb-close-icon {
+        right: 0;
+        top: -30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

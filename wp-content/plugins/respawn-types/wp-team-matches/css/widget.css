@@ -1,0 +1,200 @@
+/*
+    WP-TeamMatches
+    (c) 2011 Andrej Mihajlov
+
+    This file is part of WP-TeamMatches.
+
+    WP-TeamMatches is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    WP-TeamMatches is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with WP-TeamMatches.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.widget_team-matches ul.teamwar-list  {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.widget_team-matches ul.teamwar-list li {
+	margin: 0;
+	padding: 0;
+}
+
+.widget_team-matches ul.teamwar-list li.teamwar-item {
+	margin: 0;
+	padding: 0.4688em 0;
+	clear: right;
+}
+
+.no-js .widget_team-matches .tabs {
+	display: none;
+}
+
+.widget-area .widget .tabs,
+.widget_team-matches .tabs {
+	margin: 0 0 1em;
+	padding: 0.4688em 0;
+	border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+	padding-bottom: 12px;
+}
+
+.widget_team-matches .tabs li {
+	display: inline-block;
+	list-style: none;
+
+	border-radius: 3px;
+	text-transform: uppercase;
+
+	-webkit-transition: all 0.25s;
+	-moz-transition: all 0.25s;
+	transition: all 0.25s;
+}
+.widget_team-matches .tabs li.selected {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+.widget_team-matches .tabs li:hover a,
+.widget_team-matches .tabs li.selected a {
+	/*color: #707070;*/
+	/*color: rgba(51, 51, 51, 0.7);*/
+}
+
+.widget_team-matches .tabs li a {
+	text-decoration: none;
+	display: block;
+	padding: 3px 8px;
+	outline: 0;
+}
+
+.widget_team-matches ul.teamwar-list li.teamwar-item .icon {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+
+.widget_team-matches ul.teamwar-list li.teamwar-item.alt {}
+
+.widget_team-matches .scores,
+.widget_team-matches .upcoming,
+.widget_team-matches .live
+{
+	text-align: center;
+	min-width: 20px;
+	font-size: 0.8em;
+	font-weight: normal;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	float: right;
+	padding: 5px;
+	margin: 0;
+}
+
+.widget_team-matches .upcoming {
+	color: #fff;
+	background-color: #7a4a77;
+	letter-spacing: 0;
+}
+
+@-webkit-keyframes wp-team-matches-pulse {
+	0% {
+		background-color: #7a4a77;
+	}
+	50% {
+		background-color: #6492ac;
+	}
+	100% {
+		background-color: #7a4a77;
+	}
+}
+
+@-moz-keyframes wp-team-matches-pulse {
+	0% {
+		background-color: #7a4a77;
+	}
+	50% {
+		background-color: #6492ac;
+	}
+	100% {
+		background-color: #7a4a77;
+	}
+}
+
+@keyframes wp-team-matches-pulse {
+	0% {
+		background-color: #7a4a77;
+	}
+	50% {
+		background-color: #6492ac;
+	}
+	100% {
+		background-color: #7a4a77;
+	}
+}
+
+.widget_team-matches .live {
+	color: #fff;
+	background-color: #6492ac;
+	letter-spacing: 0;
+
+	-webkit-animation: wp-team-matches-pulse 2s ease-in-out 0s infinite;
+	-moz-animation: wp-team-matches-pulse 2s ease-in-out 0s infinite;
+	animation: wp-team-matches-pulse 2s ease-in-out 0s infinite;
+}
+
+.widget_team-matches .date {
+	font-size: 0.8em;
+	color: #777;
+}
+
+.widget_team-matches .opponent-team {
+	line-height: 1.2em;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.widget_team-matches .scores.win
+{
+	color: #fff;
+	background-color: #567632;
+}
+
+.widget_team-matches .scores.draw {
+	color: #fff;
+	background-color: #c87800;
+}
+
+.widget_team-matches .scores.loose,
+.widget_team-matches .scores.loss {
+	color: #fff;
+	background-color: #c00;
+}
+
+.widget_team-matches li.teamwar-item a:hover {
+	border-bottom: 0;
+}
+
+/*
+Tweaks for Twenty Fifteen
+*/
+.widget_team-matches_twentyfifteen {
+	padding-right: 0;
+}
+
+.widget_team-matches_twentyfifteen ul.teamwar-list.shows-game-icon .opponent-team {
+	/* padding-left: 20px; */
+}
+
+.widget_team-matches_twentyfifteen ul.teamwar-list li.teamwar-item .icon {
+	margin-left: -20px;
+}

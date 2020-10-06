@@ -1,0 +1,54 @@
+.menucont, .hsearch, .hsocial{
+	float:left;
+}
+
+[dir='rtl'] .slick-next {
+    right: auto !important;
+    left: 15px;
+} 
+
+body  div[id^="gallery_isotope_wrap"] > div[id^="gallery_content"] .ih-wrap{
+	left: -210px;
+	right:initial !important;
+}
+body .right_tabs{
+	text-align:left;
+}
+
+body .elementor-widget-videos_slider .vh-wrap{
+	right: initial !important;
+	    left: -200px;
+}
+
+body .slideshow{
+	direction: ltr;
+}
+body .slideshow .slide {
+    direction: rtl;
+}
+body .slide--current.slide--visible .slide__explore {
+    left: 0;
+    right: initial;
+}
+body h3.ns-secondstyle:before{
+	left:initial;
+	right:110px;
+}
+body .ns-secondstyle .slick-arrow{
+	right: 13px;
+    left: initial;
+}
+body .ns-secondstyle .slick-arrow.slick-next {
+    right: 55px !important;
+    left: initial !important;
+}
+body h3.ns-secondstyle{
+	    padding-right: 110px;
+    padding-left: 25px;
+}
+body .slick-arrows-fix .slick-prev:before{
+	transform: rotate(0deg);
+}
+body .slick-arrows-fix .slick-next:before{
+	transform: rotate(180deg);
+}

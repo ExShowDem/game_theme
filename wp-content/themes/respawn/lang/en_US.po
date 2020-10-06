@@ -1,0 +1,2423 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Respawn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-26 13:08+0000\n"
+"PO-Revision-Date: 2019-06-25 08:14+0000\n"
+"Last-Translator: admin <sadasa@soasda.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: index.php:68 index.php:72 index.php:75 index.php:78 search.php:62
+msgid "Nothing Found"
+msgstr ""
+
+#: index.php:69 search.php:63
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: index.php:73
+msgid "Sorry, but there are no posts for this category yet."
+msgstr ""
+
+#: index.php:76
+msgid "Sorry, but there are no posts  for this tag yet."
+msgstr ""
+
+#: index.php:79
+msgid "Sorry, but there are no posts for this author yet."
+msgstr ""
+
+#: comments.php:3
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:13
+msgid "Comments"
+msgstr ""
+
+#: comments.php:23
+msgid "Reply"
+msgstr ""
+
+#: options-config.php:145
+msgid "Like us on Facebook"
+msgstr ""
+
+#: options-config.php:212 options-config.php:221
+msgid "General Settings"
+msgstr ""
+
+#: options-config.php:215
+msgid ""
+"Welcome to the Respawn options panel! You can switch between option groups "
+"by using the left-hand tabs."
+msgstr ""
+
+#: options-config.php:229
+msgid "Upload Your Logo"
+msgstr ""
+
+#: options-config.php:230
+msgid "Upload your logo image."
+msgstr ""
+
+#: options-config.php:239
+msgid "To Top"
+msgstr ""
+
+#: options-config.php:240
+msgid "This will enable back to top button."
+msgstr ""
+
+#: options-config.php:247
+msgid "One Page Template"
+msgstr ""
+
+#: options-config.php:248
+msgid ""
+"Enable this if you want to use one page website. This option will load "
+"necesary script for smooth transition when you click on menu item."
+msgstr ""
+
+#: options-config.php:255
+msgid "Choose Website General Color"
+msgstr ""
+
+#: options-config.php:257 options-config.php:265
+msgid "This will affect different elements in the site."
+msgstr ""
+
+#: options-config.php:263
+msgid "Choose Website Secondary Color"
+msgstr ""
+
+#: options-config.php:271
+msgid "Choose Website Widget Header Color"
+msgstr ""
+
+#: options-config.php:273
+msgid "This will affect different widget and block headers in the site."
+msgstr ""
+
+#: options-config.php:279
+msgid "Choose Website Widget Background Color"
+msgstr ""
+
+#: options-config.php:281
+msgid "This will affect different widget and block backgrounds in the site."
+msgstr ""
+
+#: options-config.php:290
+msgid "Page preloader"
+msgstr ""
+
+#: options-config.php:297
+msgid "Enable Page Preloading"
+msgstr ""
+
+#: options-config.php:298
+msgid "Turn this on to enable page preloading."
+msgstr ""
+
+#: options-config.php:305
+msgid "Loading Icon"
+msgstr ""
+
+#: options-config.php:306
+msgid "Choose preferred loading icon styling."
+msgstr ""
+
+#: options-config.php:308
+msgid "Folding Cube"
+msgstr ""
+
+#: options-config.php:309
+msgid "Rotating Plane"
+msgstr ""
+
+#: options-config.php:310
+msgid "Double Bounce"
+msgstr ""
+
+#: options-config.php:311
+msgid "Rectangle Bounce"
+msgstr ""
+
+#: options-config.php:312
+msgid "Wandering Cubes"
+msgstr ""
+
+#: options-config.php:313
+msgid "Pulse"
+msgstr ""
+
+#: options-config.php:314
+msgid "Chasing Dots"
+msgstr ""
+
+#: options-config.php:315
+msgid "Three Bounce"
+msgstr ""
+
+#: options-config.php:316
+msgid "Circle"
+msgstr ""
+
+#: options-config.php:317
+msgid "Cube Grid"
+msgstr ""
+
+#: options-config.php:318
+msgid "Fading Circle"
+msgstr ""
+
+#: options-config.php:327
+msgid "Preloader Icon Color"
+msgstr ""
+
+#: options-config.php:340
+msgid "Preloader Background Color"
+msgstr ""
+
+#: options-config.php:355
+msgid "Team Matches"
+msgstr ""
+
+#: options-config.php:365
+msgid "Team Matches Settings"
+msgstr ""
+
+#: options-config.php:373
+msgid "Background"
+msgstr ""
+
+#: options-config.php:374
+msgid "Default background for the match page."
+msgstr ""
+
+#: options-config.php:388 elementor/videos-slider.php:126
+msgid "Header"
+msgstr ""
+
+#: options-config.php:398
+msgid "Header General Settings"
+msgstr ""
+
+#: options-config.php:406
+msgid "Background Color Option"
+msgstr ""
+
+#: options-config.php:407 options-config.php:654
+msgid "Choose background color option."
+msgstr ""
+
+#: options-config.php:409 options-config.php:656 options-config.php:1451
+#: functions.php:887 functions.php:1182
+msgid "Color"
+msgstr ""
+
+#: options-config.php:410 options-config.php:657
+msgid "Color Gradient"
+msgstr ""
+
+#: options-config.php:417
+msgid "Background Color"
+msgstr ""
+
+#: options-config.php:418
+msgid "Select background color for header."
+msgstr ""
+
+#: options-config.php:427 options-config.php:664
+msgid "Background Color Gradient"
+msgstr ""
+
+#: options-config.php:428 options-config.php:665
+msgid "Select background color gradient for header."
+msgstr ""
+
+#: options-config.php:435 options-config.php:672
+msgid "Background Color Gradient Type"
+msgstr ""
+
+#: options-config.php:436
+msgid "Select background color gradient type for header."
+msgstr ""
+
+#: options-config.php:439 options-config.php:676
+msgid "Vertical"
+msgstr ""
+
+#: options-config.php:440 options-config.php:677
+msgid "Horizontal"
+msgstr ""
+
+#: options-config.php:441
+msgid "Radial"
+msgstr ""
+
+#: options-config.php:442 options-config.php:678
+msgid "Diagonal"
+msgstr ""
+
+#: options-config.php:450
+msgid "Menu Layout"
+msgstr ""
+
+#: options-config.php:451
+msgid "Please select the layout of your menu."
+msgstr ""
+
+#: options-config.php:453
+msgid "Right Aligned Menu Layout"
+msgstr ""
+
+#: options-config.php:454
+msgid "Center Aligned Menu Layout"
+msgstr ""
+
+#: options-config.php:455
+msgid "Left Aligned Menu Layout"
+msgstr ""
+
+#: options-config.php:463
+msgid "Header Height"
+msgstr ""
+
+#: options-config.php:464
+msgid "Choose desired height. Don't include \"px\" in the string. e.g. 30."
+msgstr ""
+
+#: options-config.php:473
+msgid "Header Layout"
+msgstr ""
+
+#: options-config.php:474
+msgid "Choose header layout."
+msgstr ""
+
+#: options-config.php:478
+msgid "Normal"
+msgstr ""
+
+#: options-config.php:479
+msgid "Fullwidth"
+msgstr ""
+
+#: options-config.php:480
+msgid "Boxed"
+msgstr ""
+
+#: options-config.php:487
+msgid "Header Style"
+msgstr ""
+
+#: options-config.php:488
+msgid "Choose style of your header."
+msgstr ""
+
+#: options-config.php:491
+msgid "Fixed"
+msgstr ""
+
+#: options-config.php:492 options-config.php:579
+msgid "Regular"
+msgstr ""
+
+#: options-config.php:500
+msgid "Background Color For Fixed Header"
+msgstr ""
+
+#: options-config.php:501
+msgid "Header background will change to this color when scrolling."
+msgstr ""
+
+#: options-config.php:511
+msgid "Text Color In Fixed Header"
+msgstr ""
+
+#: options-config.php:512
+msgid "Header text will change to this color when scrolling."
+msgstr ""
+
+#: options-config.php:520
+msgid "Second Logo For Fixed Header"
+msgstr ""
+
+#: options-config.php:521
+msgid "This logo will replace main one when you scroll down."
+msgstr ""
+
+#: options-config.php:527
+msgid "Enable Social Icons"
+msgstr ""
+
+#: options-config.php:528
+msgid "This will enable social icons in your header."
+msgstr ""
+
+#: options-config.php:538
+msgid "Search Settings"
+msgstr ""
+
+#: options-config.php:545
+msgid "Enable Search"
+msgstr ""
+
+#: options-config.php:546
+msgid "This will enable search box in your header."
+msgstr ""
+
+#: options-config.php:559
+msgid "Menu Settings"
+msgstr ""
+
+#: options-config.php:566
+msgid "Menu General Settings"
+msgstr ""
+
+#: options-config.php:574
+msgid "Menu Hover Effects"
+msgstr ""
+
+#: options-config.php:575
+msgid "Choose menu hover effect."
+msgstr ""
+
+#: options-config.php:580
+msgid "Effect 1"
+msgstr ""
+
+#: options-config.php:581
+msgid "Effect 2"
+msgstr ""
+
+#: options-config.php:582
+msgid "Effect 3"
+msgstr ""
+
+#: options-config.php:583
+msgid "Effect 4"
+msgstr ""
+
+#: options-config.php:584
+msgid "Effect 5"
+msgstr ""
+
+#: options-config.php:585
+msgid "Effect 6"
+msgstr ""
+
+#: options-config.php:586
+msgid "Effect 7"
+msgstr ""
+
+#: options-config.php:593
+msgid "Menu Font"
+msgstr ""
+
+#: options-config.php:594
+msgid "Specify menu font properties."
+msgstr ""
+
+#: options-config.php:616
+msgid "Menu Hover Color"
+msgstr ""
+
+#: options-config.php:617
+msgid "Choose menu hover color."
+msgstr ""
+
+#: options-config.php:634
+msgid "Body"
+msgstr ""
+
+#: options-config.php:645
+msgid "Body General Settings"
+msgstr ""
+
+#: options-config.php:653
+msgid "Website Background Color Option"
+msgstr ""
+
+#: options-config.php:673
+msgid "Select background color gradient type for body."
+msgstr ""
+
+#: options-config.php:686
+msgid "Website Background Color"
+msgstr ""
+
+#: options-config.php:688
+msgid "This will affect background color of the website."
+msgstr ""
+
+#: options-config.php:697
+msgid "Body Background"
+msgstr ""
+
+#: options-config.php:698
+msgid "Upload body background image."
+msgstr ""
+
+#: options-config.php:703
+msgid "Background Repeat"
+msgstr ""
+
+#: options-config.php:704
+msgid "Use this option to turn background repeat on/off."
+msgstr ""
+
+#: options-config.php:709
+msgid "Fixed Background"
+msgstr ""
+
+#: options-config.php:710
+msgid "Use this option to turn fixed background on/off."
+msgstr ""
+
+#: options-config.php:718 elementor/posts-slider.php:119
+#: elementor/matches-list.php:104 elementor/matches-slider.php:108
+#: elementor/isotope-gallery.php:108 elementor/players-slider.php:108
+#: elementor/posts-list.php:103 elementor/posts-simple.php:104
+#: elementor/posts-magazine.php:104 elementor/shop-slider.php:109
+#: elementor/shop-simple.php:116 elementor/videos-slider.php:119
+msgid "Content"
+msgstr ""
+
+#: options-config.php:725
+msgid "Excerpt Length"
+msgstr ""
+
+#: options-config.php:726
+msgid "Custom excerpt length. Default is 25."
+msgstr ""
+
+#: options-config.php:740 functions.php:796
+msgid "Page Header"
+msgstr ""
+
+#: options-config.php:751
+msgid "P. Header General Settings"
+msgstr ""
+
+#: options-config.php:758 functions.php:802
+msgid "Show Page Header"
+msgstr ""
+
+#: options-config.php:759 functions.php:809 functions.php:1017
+msgid "Use this option to turn header on/off."
+msgstr ""
+
+#: options-config.php:766
+msgid "Select Default Background Image"
+msgstr ""
+
+#: options-config.php:767
+msgid "Select default background image for header."
+msgstr ""
+
+#: options-config.php:776
+msgid "Page Subtitle Breadcrumbs"
+msgstr ""
+
+#: options-config.php:777
+msgid "Use this option to turn breadcrumbs on/off."
+msgstr ""
+
+#: options-config.php:779 functions.php:824
+msgid "Nothing"
+msgstr ""
+
+#: options-config.php:780 functions.php:826
+msgid "Breadcrumbs"
+msgstr ""
+
+#: options-config.php:786
+msgid "Header Parallax Effect"
+msgstr ""
+
+#: options-config.php:787
+msgid "This will enable header parallax effect."
+msgstr ""
+
+#: options-config.php:794
+msgid "Page Header Tint"
+msgstr ""
+
+#: options-config.php:795
+msgid "Adds a tint color to the page header so the title can be read better."
+msgstr ""
+
+#: options-config.php:803
+msgid "Page Top Padding"
+msgstr ""
+
+#: options-config.php:804
+msgid ""
+"Choose desired top padding. Don't include \"px\" in the string. e.g. 30."
+msgstr ""
+
+#: options-config.php:812
+msgid "Page Bottom Padding"
+msgstr ""
+
+#: options-config.php:813
+msgid ""
+"Choose desired bottom padding. Don't include \"px\" in the string. e.g. 30."
+msgstr ""
+
+#: options-config.php:823
+msgid "P. Header Typography"
+msgstr ""
+
+#: options-config.php:831
+msgid "Page Heading Title Font"
+msgstr ""
+
+#: options-config.php:832
+msgid "Specify the page heading title font properties."
+msgstr ""
+
+#: options-config.php:845
+msgid "Page Heading Subtitle Font"
+msgstr ""
+
+#: options-config.php:846
+msgid "Specify the page heading subtitle font properties."
+msgstr ""
+
+#: options-config.php:863
+msgid "Typography"
+msgstr ""
+
+#: options-config.php:865
+msgid "All typography related options are listed here"
+msgstr ""
+
+#: options-config.php:873
+msgid "General HTML elements"
+msgstr ""
+
+#: options-config.php:880
+msgid "Body Font"
+msgstr ""
+
+#: options-config.php:881
+msgid "Specify the body font properties."
+msgstr ""
+
+#: options-config.php:900
+msgid "Heading 1"
+msgstr ""
+
+#: options-config.php:901
+msgid "Specify the H1 text properties."
+msgstr ""
+
+#: options-config.php:916
+msgid "Heading 2"
+msgstr ""
+
+#: options-config.php:917
+msgid "Specify the H2 text properties."
+msgstr ""
+
+#: options-config.php:932
+msgid "Heading 3"
+msgstr ""
+
+#: options-config.php:933
+msgid "Specify the H3 text properties."
+msgstr ""
+
+#: options-config.php:948
+msgid "Heading 4"
+msgstr ""
+
+#: options-config.php:949
+msgid "Specify the H4 text properties."
+msgstr ""
+
+#: options-config.php:964
+msgid "Heading 5"
+msgstr ""
+
+#: options-config.php:965
+msgid "Specify the H5 text properties."
+msgstr ""
+
+#: options-config.php:980
+msgid "Heading 6"
+msgstr ""
+
+#: options-config.php:981
+msgid "Specify the H6 text properties."
+msgstr ""
+
+#: options-config.php:996
+msgid "Italic"
+msgstr ""
+
+#: options-config.php:997
+msgid "Specify the italic text properties."
+msgstr ""
+
+#: options-config.php:1011
+msgid "Strong"
+msgstr ""
+
+#: options-config.php:1012
+msgid "Specify the strong text properties."
+msgstr ""
+
+#: options-config.php:1024
+msgid "Form Labels"
+msgstr ""
+
+#: options-config.php:1025
+msgid "Specify the form label properties."
+msgstr ""
+
+#: options-config.php:1038
+msgid "Other elements"
+msgstr ""
+
+#: options-config.php:1045
+msgid "Widget Title"
+msgstr ""
+
+#: options-config.php:1046
+msgid "Specify the widget title properties."
+msgstr ""
+
+#: options-config.php:1062
+msgid "Home slider"
+msgstr ""
+
+#: options-config.php:1076 elementor/isotope-gallery.php:260
+msgid "All"
+msgstr ""
+
+#: options-config.php:1082
+msgid "Settings"
+msgstr ""
+
+#: options-config.php:1089
+msgid "Post Categories"
+msgstr ""
+
+#: options-config.php:1090
+msgid "Choose post categories you want to show"
+msgstr ""
+
+#: options-config.php:1098
+msgid "Number Of Posts"
+msgstr ""
+
+#: options-config.php:1099
+msgid "Choose number of posts you want to show in slider."
+msgstr ""
+
+#: options-config.php:1106
+msgid "Post Order"
+msgstr ""
+
+#: options-config.php:1107
+msgid "Choose order of posts in slider."
+msgstr ""
+
+#: options-config.php:1109
+msgid "Asc"
+msgstr ""
+
+#: options-config.php:1110
+msgid "Desc"
+msgstr ""
+
+#: options-config.php:1117
+msgid "Post Order By"
+msgstr ""
+
+#: options-config.php:1118
+msgid "Choose order by of posts in slider."
+msgstr ""
+
+#: options-config.php:1120 options-config.php:1426 functions.php:863
+msgid "None"
+msgstr ""
+
+#: options-config.php:1121
+msgid "ID"
+msgstr ""
+
+#: options-config.php:1122 functions.php:916
+msgid "Author"
+msgstr ""
+
+#: options-config.php:1123 functions.php:1541
+msgid "Title"
+msgstr ""
+
+#: options-config.php:1124
+msgid "Name"
+msgstr ""
+
+#: options-config.php:1125 elementor/shop-slider.php:159
+#: elementor/shop-simple.php:166
+msgid "Date"
+msgstr ""
+
+#: options-config.php:1126 elementor/shop-slider.php:161
+#: elementor/shop-simple.php:168
+msgid "Random"
+msgstr ""
+
+#: options-config.php:1143
+msgid "WooCommerce"
+msgstr ""
+
+#: options-config.php:1145
+msgid "All WooCommerce related options are listed here"
+msgstr ""
+
+#: options-config.php:1154
+msgid "Woo General Settings"
+msgstr ""
+
+#: options-config.php:1162
+msgid "Enable Cart In Nav"
+msgstr ""
+
+#: options-config.php:1163
+msgid "This will add a cart item to your main navigation."
+msgstr ""
+
+#: options-config.php:1170
+msgid "Show Cart In WooCommerce Pages"
+msgstr ""
+
+#: options-config.php:1171
+msgid "Do you want to display shopping cart only in WooCoomerce pages?"
+msgstr ""
+
+#: options-config.php:1179
+msgid "Shopping Cart Background Color"
+msgstr ""
+
+#: options-config.php:1180
+msgid "Please select the background color for shopping cart."
+msgstr ""
+
+#: options-config.php:1189
+msgid "Shopping Cart Font Color"
+msgstr ""
+
+#: options-config.php:1190
+msgid "Please select the font color for shopping cart."
+msgstr ""
+
+#: options-config.php:1198
+msgid "Layout"
+msgstr ""
+
+#: options-config.php:1206
+msgid "Main Shop Page Layout"
+msgstr ""
+
+#: options-config.php:1207
+msgid "Choose page layout that you want to use on main WooCommerce page."
+msgstr ""
+
+#: options-config.php:1209 options-config.php:1221
+msgid "No Sidebar"
+msgstr ""
+
+#: options-config.php:1210 options-config.php:1222 options-config.php:1555
+msgid "Right Sidebar"
+msgstr ""
+
+#: options-config.php:1211 options-config.php:1223 options-config.php:1556
+msgid "Left Sidebar"
+msgstr ""
+
+#: options-config.php:1218
+msgid "Single Product Page Layout"
+msgstr ""
+
+#: options-config.php:1219
+msgid ""
+"Choose page layout that you want to use on single product WooCommerce page."
+msgstr ""
+
+#: options-config.php:1239
+msgid "Footer"
+msgstr ""
+
+#: options-config.php:1241
+msgid "All footer related options are listed here."
+msgstr ""
+
+#: options-config.php:1249
+msgid "Footer General Settings"
+msgstr ""
+
+#: options-config.php:1256
+msgid "Main Footer Area"
+msgstr ""
+
+#: options-config.php:1257
+msgid "Turn this option on to use main footer area."
+msgstr ""
+
+#: options-config.php:1264
+msgid "Footer Columns"
+msgstr ""
+
+#: options-config.php:1265
+msgid "Please select the number of columns you would like for your footer."
+msgstr ""
+
+#: options-config.php:1267
+msgid "1 Column"
+msgstr ""
+
+#: options-config.php:1268
+msgid "2 Columns"
+msgstr ""
+
+#: options-config.php:1269
+msgid "3 Columns"
+msgstr ""
+
+#: options-config.php:1270
+msgid "4 Columns"
+msgstr ""
+
+#: options-config.php:1279
+msgid "Main Footer Area Background Image"
+msgstr ""
+
+#: options-config.php:1280
+msgid "Add main footer area background image."
+msgstr ""
+
+#: options-config.php:1287
+msgid "Main Footer Area Background Image Repeat"
+msgstr ""
+
+#: options-config.php:1288
+msgid "Choose main footer area background image repeat."
+msgstr ""
+
+#: options-config.php:1290
+msgid "Repeat"
+msgstr ""
+
+#: options-config.php:1291
+msgid "No Repeat"
+msgstr ""
+
+#: options-config.php:1292
+msgid "Cover"
+msgstr ""
+
+#: options-config.php:1301
+msgid "Main Footer Area Color"
+msgstr ""
+
+#: options-config.php:1302
+msgid "Select background color for main footer area."
+msgstr ""
+
+#: options-config.php:1311
+msgid "Main Footer Area Top Padding"
+msgstr ""
+
+#: options-config.php:1312 options-config.php:1321
+msgid "Choose desired padding. Don't include \"px\" in the string. e.g. 30."
+msgstr ""
+
+#: options-config.php:1320
+msgid "Main Footer Area Bottom Padding"
+msgstr ""
+
+#: options-config.php:1329
+msgid "Sub Footer Area"
+msgstr ""
+
+#: options-config.php:1330
+msgid "Turn this option on to use sub footer area."
+msgstr ""
+
+#: options-config.php:1337
+msgid "Sub Footer Area Color"
+msgstr ""
+
+#: options-config.php:1338
+msgid "Select background color for sub footer area."
+msgstr ""
+
+#: options-config.php:1349
+msgid "Footer Copyright Section Text"
+msgstr ""
+
+#: options-config.php:1350
+msgid ""
+"Please enter the copyright section text. e.g. All Rights Reserved, Respawn "
+"Inc."
+msgstr ""
+
+#: options-config.php:1357
+msgid "Enable Social Icons?"
+msgstr ""
+
+#: options-config.php:1358
+msgid "Do you want the secondary nav to display social icons?"
+msgstr ""
+
+#: options-config.php:1369
+msgid "Footer Typography"
+msgstr ""
+
+#: options-config.php:1379
+msgid "Footer Widget Areas Font"
+msgstr ""
+
+#: options-config.php:1380
+msgid "Specify footer widget areas font properties."
+msgstr ""
+
+#: options-config.php:1391
+msgid "Footer General Font"
+msgstr ""
+
+#: options-config.php:1392
+msgid "Specify general font properties for footer."
+msgstr ""
+
+#: options-config.php:1402
+msgid "Subfooter Font Color"
+msgstr ""
+
+#: options-config.php:1403
+msgid "Select font color for subfooter area."
+msgstr ""
+
+#: options-config.php:1413 functions.php:855
+msgid "Shape Divider"
+msgstr ""
+
+#: options-config.php:1423 functions.php:861
+msgid "Type"
+msgstr ""
+
+#: options-config.php:1424
+msgid "Choose shape type."
+msgstr ""
+
+#: options-config.php:1427 functions.php:864
+msgid "Mountains"
+msgstr ""
+
+#: options-config.php:1428 functions.php:865
+msgid "Drops"
+msgstr ""
+
+#: options-config.php:1429 functions.php:866
+msgid "Clouds"
+msgstr ""
+
+#: options-config.php:1430 functions.php:867
+msgid "Zigzag"
+msgstr ""
+
+#: options-config.php:1431 functions.php:868
+msgid "Pyramids"
+msgstr ""
+
+#: options-config.php:1432 functions.php:869
+msgid "Triangle"
+msgstr ""
+
+#: options-config.php:1433 functions.php:870
+msgid "Triangle Asymmetrical"
+msgstr ""
+
+#: options-config.php:1434 functions.php:871
+msgid "Tilt"
+msgstr ""
+
+#: options-config.php:1435 functions.php:872
+msgid "Tilt Opacity"
+msgstr ""
+
+#: options-config.php:1436 functions.php:873
+msgid "Fan Opacity"
+msgstr ""
+
+#: options-config.php:1437 functions.php:874
+msgid "Curve Asymmetrical"
+msgstr ""
+
+#: options-config.php:1438 functions.php:875
+msgid "Waves"
+msgstr ""
+
+#: options-config.php:1439 functions.php:876
+msgid "Waves Brush"
+msgstr ""
+
+#: options-config.php:1440 functions.php:877
+msgid "Waves Pattern"
+msgstr ""
+
+#: options-config.php:1441 functions.php:878
+msgid "Arrow"
+msgstr ""
+
+#: options-config.php:1442 functions.php:879
+msgid "Split"
+msgstr ""
+
+#: options-config.php:1443 functions.php:880
+msgid "Book"
+msgstr ""
+
+#: options-config.php:1452
+msgid "Select shape color."
+msgstr ""
+
+#: options-config.php:1459 functions.php:892
+msgid "Height"
+msgstr ""
+
+#: options-config.php:1460
+msgid "Choose shape height."
+msgstr ""
+
+#: options-config.php:1469 functions.php:902
+msgid "Bring to Front"
+msgstr ""
+
+#: options-config.php:1470
+msgid "Turn this on to bring the shape to the front."
+msgstr ""
+
+#: options-config.php:1483
+msgid "Blog"
+msgstr ""
+
+#: options-config.php:1485
+msgid "All blog options are listed here."
+msgstr ""
+
+#: options-config.php:1495
+msgid "Blog Feed"
+msgstr ""
+
+#: options-config.php:1503
+msgid "Blog Page Template"
+msgstr ""
+
+#: options-config.php:1504
+msgid "Choose desired page template."
+msgstr ""
+
+#: options-config.php:1506
+msgid "Standard Right Sidebar"
+msgstr ""
+
+#: options-config.php:1507
+msgid "Standard Left Sidebar"
+msgstr ""
+
+#: options-config.php:1508
+msgid "Standard Full Width"
+msgstr ""
+
+#: options-config.php:1509
+msgid "Masonry Right Sidebar"
+msgstr ""
+
+#: options-config.php:1510
+msgid "Masonry Left Sidebar"
+msgstr ""
+
+#: options-config.php:1511
+msgid "Masonry Full Width"
+msgstr ""
+
+#: options-config.php:1521
+msgid "Posts Animation"
+msgstr ""
+
+#: options-config.php:1522
+msgid "Choose post appearing effect."
+msgstr ""
+
+#: options-config.php:1525
+msgid "Fade In"
+msgstr ""
+
+#: options-config.php:1526
+msgid "Fade Up"
+msgstr ""
+
+#: options-config.php:1527
+msgid "Scale Up"
+msgstr ""
+
+#: options-config.php:1528
+msgid "Fly"
+msgstr ""
+
+#: options-config.php:1529
+msgid "Flip"
+msgstr ""
+
+#: options-config.php:1530
+msgid "Helics"
+msgstr ""
+
+#: options-config.php:1531
+msgid "Bounce"
+msgstr ""
+
+#: options-config.php:1543
+msgid "Single Page"
+msgstr ""
+
+#: options-config.php:1551
+msgid "Blog Single Layout Type"
+msgstr ""
+
+#: options-config.php:1552
+msgid "Please select your blog single post format here."
+msgstr ""
+
+#: options-config.php:1554
+msgid "Full Width"
+msgstr ""
+
+#: options-config.php:1565
+msgid "Social Media Sharing Buttons"
+msgstr ""
+
+#: options-config.php:1566
+msgid ""
+"Turn this on to enable social sharing buttons on your post single pages."
+msgstr ""
+
+#: options-config.php:1574
+msgid "Show author section in single page"
+msgstr ""
+
+#: options-config.php:1575
+msgid "Turn this on to enable author section in single post page."
+msgstr ""
+
+#: options-config.php:1584
+msgid "Social Media"
+msgstr ""
+
+#: options-config.php:1586
+msgid "Remember to include \"https://\" in all URLs!"
+msgstr ""
+
+#: options-config.php:1594
+msgid "Facebook URL"
+msgstr ""
+
+#: options-config.php:1595
+msgid "Please enter your Facebook URL."
+msgstr ""
+
+#: options-config.php:1601
+msgid "Twitter URL"
+msgstr ""
+
+#: options-config.php:1602
+msgid "Please enter your Twitter URL."
+msgstr ""
+
+#: options-config.php:1608
+msgid "Vimeo URL"
+msgstr ""
+
+#: options-config.php:1609
+msgid "Please enter your Vimeo URL."
+msgstr ""
+
+#: options-config.php:1615
+msgid "Dribbble URL"
+msgstr ""
+
+#: options-config.php:1616
+msgid "Please enter your Dribbble URL."
+msgstr ""
+
+#: options-config.php:1622
+msgid "Pinterest URL"
+msgstr ""
+
+#: options-config.php:1623
+msgid "Please enter your Pinterest URL."
+msgstr ""
+
+#: options-config.php:1629
+msgid "Youtube URL"
+msgstr ""
+
+#: options-config.php:1630
+msgid "Please enter your Youtube URL."
+msgstr ""
+
+#: options-config.php:1636
+msgid "Tumblr URL"
+msgstr ""
+
+#: options-config.php:1637
+msgid "Please enter your Tumblr URL."
+msgstr ""
+
+#: options-config.php:1643
+msgid "LinkedIn URL"
+msgstr ""
+
+#: options-config.php:1644
+msgid "Please enter your LinkedIn URL."
+msgstr ""
+
+#: options-config.php:1650
+msgid "RSS URL"
+msgstr ""
+
+#: options-config.php:1651
+msgid ""
+"If you have an external RSS feed such as Feedburner, please enter it here. "
+"Will use built in Wordpress feed if left blank."
+msgstr ""
+
+#: options-config.php:1657
+msgid "Behance URL"
+msgstr ""
+
+#: options-config.php:1658
+msgid "Please enter your Behance URL."
+msgstr ""
+
+#: options-config.php:1664
+msgid "Flickr URL"
+msgstr ""
+
+#: options-config.php:1665
+msgid "Please enter your Flickr URL."
+msgstr ""
+
+#: options-config.php:1671
+msgid "Spotify URL"
+msgstr ""
+
+#: options-config.php:1672
+msgid "Please enter your Spotify URL."
+msgstr ""
+
+#: options-config.php:1678
+msgid "Steam URL"
+msgstr ""
+
+#: options-config.php:1679
+msgid "Please enter your Steam URL."
+msgstr ""
+
+#: options-config.php:1685
+msgid "Instagram URL"
+msgstr ""
+
+#: options-config.php:1686
+msgid "Please enter your Instagram URL."
+msgstr ""
+
+#: options-config.php:1692
+msgid "GitHub URL"
+msgstr ""
+
+#: options-config.php:1693
+msgid "Please enter your GitHub URL."
+msgstr ""
+
+#: options-config.php:1699
+msgid "StackExchange URL"
+msgstr ""
+
+#: options-config.php:1700
+msgid "Please enter your StackExchange URL."
+msgstr ""
+
+#: options-config.php:1706
+msgid "SoundCloud URL"
+msgstr ""
+
+#: options-config.php:1707
+msgid "Please enter your SoundCloud URL."
+msgstr ""
+
+#: options-config.php:1713
+msgid "VK URL"
+msgstr ""
+
+#: options-config.php:1714
+msgid "Please enter your VK URL."
+msgstr ""
+
+#: options-config.php:1720
+msgid "Vine URL"
+msgstr ""
+
+#: options-config.php:1721
+msgid "Please enter your Vine URL."
+msgstr ""
+
+#: options-config.php:1727
+msgid "Twitch URL"
+msgstr ""
+
+#: options-config.php:1728
+msgid "Please enter your Twitch URL."
+msgstr ""
+
+#: options-config.php:1734
+msgid "Discord URL"
+msgstr ""
+
+#: options-config.php:1735
+msgid "Please enter your Discord URL."
+msgstr ""
+
+#: options-config.php:1847
+msgid "Section via hook"
+msgstr ""
+
+#: options-config.php:1848
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: tmp-homepage.php:80 blog-roll.php:128
+msgid "Read more"
+msgstr ""
+
+#: header.php:246 header.php:376
+msgid "No menu assigned!"
+msgstr ""
+
+#: header.php:297
+msgid "Your cart."
+msgstr ""
+
+#: header.php:301 header.php:310
+msgid "was successfully added to your cart."
+msgstr ""
+
+#: header.php:331
+msgid "Enter your search"
+msgstr ""
+
+#: header.php:446 header.php:459
+msgid "'s posts"
+msgstr ""
+
+#. %s: archives term
+#: header.php:449 header.php:462
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#. %s: archives term
+#: header.php:452 header.php:465
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: header.php:452 header.php:465
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#. %s: archives term
+#: header.php:455 header.php:468
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: header.php:455 header.php:468
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: header.php:457 header.php:470
+msgid "Blog Archives"
+msgstr ""
+
+#: header.php:485
+msgid "team_image"
+msgstr ""
+
+#: header.php:595
+msgid "By"
+msgstr ""
+
+#: header.php:596
+msgid "View all posts by"
+msgstr ""
+
+#: header.php:602 header.php:606
+msgid "0 Comments"
+msgstr ""
+
+#: header.php:602 header.php:606
+msgid "1 Comment"
+msgstr ""
+
+#: header.php:602 header.php:606
+msgid "% Comments"
+msgstr ""
+
+#: header.php:605
+msgid "No comments in this post"
+msgstr ""
+
+#: header.php:605
+msgid "One comment in this post"
+msgstr ""
+
+#: header.php:605
+#, php-format
+msgid "% comments in this post"
+msgstr ""
+
+#: header.php:706
+msgid "Search: "
+msgstr ""
+
+#: 404.php:5
+msgid "Nothing found"
+msgstr ""
+
+#: 404.php:6
+msgid "404"
+msgstr ""
+
+#: 404.php:8
+msgid "Sorry, Nothing Here."
+msgstr ""
+
+#: 404.php:9
+msgid ""
+"It looks like nothing was found at this location. Try using the search box "
+"below:"
+msgstr ""
+
+#: 404.php:11 footer.php:160
+msgid "Search..."
+msgstr ""
+
+#: 404.php:12
+msgid "Search"
+msgstr ""
+
+#: single.php:79
+msgid "See all author posts"
+msgstr ""
+
+#: single.php:89
+msgid "Previous Post:"
+msgstr ""
+
+#: single.php:90
+msgid "Next Post:"
+msgstr ""
+
+#: blog-roll.php:30 elementor/posts-slider.php:356
+#: elementor/posts-simple.php:281 elementor/posts-magazine.php:275
+msgid "Please insert a quote"
+msgstr ""
+
+#: blog-roll.php:139 elementor/posts-slider.php:459
+#: elementor/posts-simple.php:381
+msgid "by"
+msgstr ""
+
+#: functions.php:468
+msgid "Search for..."
+msgstr ""
+
+#: functions.php:503
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:766
+msgid "Gallery Images"
+msgstr ""
+
+#: functions.php:771
+msgid "Images Upload"
+msgstr ""
+
+#: functions.php:805 functions.php:1013 elementor/isotope-gallery.php:198
+#: elementor/isotope-gallery.php:238 elementor/players-slider.php:145
+#: elementor/players-slider.php:204 elementor/players-slider.php:217
+#: elementor/posts-simple.php:149 elementor/shop-slider.php:184
+#: elementor/shop-slider.php:196 elementor/shop-slider.php:231
+#: elementor/shop-simple.php:191 elementor/shop-simple.php:203
+#: elementor/shop-simple.php:253
+msgid "Yes"
+msgstr ""
+
+#: functions.php:806 functions.php:1014 elementor/isotope-gallery.php:199
+#: elementor/isotope-gallery.php:239 elementor/players-slider.php:146
+#: elementor/players-slider.php:205 elementor/players-slider.php:218
+#: elementor/posts-simple.php:150 elementor/shop-slider.php:185
+#: elementor/shop-slider.php:197 elementor/shop-slider.php:232
+#: elementor/shop-simple.php:192 elementor/shop-simple.php:204
+#: elementor/shop-simple.php:254
+msgid "No"
+msgstr ""
+
+#: functions.php:814 functions.php:1022
+msgid "Header Image"
+msgstr ""
+
+#: functions.php:815 functions.php:1023
+msgid "Choose header image."
+msgstr ""
+
+#: functions.php:821
+msgid "Page Subtitle Shows"
+msgstr ""
+
+#: functions.php:825
+msgid "Subtitle"
+msgstr ""
+
+#: functions.php:833
+msgid "Page Subtitle Text"
+msgstr ""
+
+#: functions.php:834
+msgid "If you add value here it will override global settings."
+msgstr ""
+
+#: functions.php:843
+msgid "Page Color"
+msgstr ""
+
+#: functions.php:849
+msgid "Page Background Color"
+msgstr ""
+
+#: functions.php:910
+msgid "Quote Settings"
+msgstr ""
+
+#: functions.php:917
+msgid "Add author of the quote."
+msgstr ""
+
+#: functions.php:923
+msgid "Quote"
+msgstr ""
+
+#: functions.php:924
+msgid "Add quote."
+msgstr ""
+
+#: functions.php:932
+msgid "Video Settings"
+msgstr ""
+
+#: functions.php:938
+msgid "MP4 File"
+msgstr ""
+
+#: functions.php:939
+msgid "Add MP4 file here."
+msgstr ""
+
+#: functions.php:945
+msgid "OGV File"
+msgstr ""
+
+#: functions.php:946
+msgid "Add OGV file here."
+msgstr ""
+
+#: functions.php:953
+msgid "Preview Image"
+msgstr ""
+
+#: functions.php:954
+msgid "Add video preview image here."
+msgstr ""
+
+#: functions.php:960 functions.php:982
+msgid "Embed Code"
+msgstr ""
+
+#: functions.php:961
+msgid "Please add YouTube or Vimeo embed code format here."
+msgstr ""
+
+#: functions.php:969
+msgid "Audio Settings"
+msgstr ""
+
+#: functions.php:975
+msgid "MP3 File"
+msgstr ""
+
+#: functions.php:976
+msgid "Add MP3 file here."
+msgstr ""
+
+#: functions.php:983
+msgid "Please add SoundCloud embed code format here."
+msgstr ""
+
+#: functions.php:990
+msgid "Gallery Settings"
+msgstr ""
+
+#: functions.php:996
+msgid "Gallery Slider"
+msgstr ""
+
+#: functions.php:997
+msgid ""
+"Check this if you want to use gallery as a slider. You will need to add "
+"basic Wordpress gallery using \"Add media\" button in post above."
+msgstr ""
+
+#: functions.php:1004
+msgid "Post Header"
+msgstr ""
+
+#: functions.php:1010
+msgid "Show Post Header"
+msgstr ""
+
+#: functions.php:1048
+msgid "Yoast SEO"
+msgstr ""
+
+#: functions.php:1053
+msgid "Woocommerce"
+msgstr ""
+
+#: functions.php:1058
+msgid "Max Mega Menu"
+msgstr ""
+
+#: functions.php:1063
+msgid "Redux framework"
+msgstr ""
+
+#: functions.php:1068
+msgid "Elementor"
+msgstr ""
+
+#: functions.php:1073
+msgid "Meta Box"
+msgstr ""
+
+#: functions.php:1164
+msgid "Category Color"
+msgstr ""
+
+#: functions.php:1184
+msgid "Pick a Category Color"
+msgstr ""
+
+#: functions.php:1324 functions.php:1329 functions.php:1330
+msgid "Homepage"
+msgstr ""
+
+#: functions.php:1325
+msgid "Homepage Magazine"
+msgstr ""
+
+#: functions.php:1326
+msgid "Event Homepage"
+msgstr ""
+
+#: functions.php:1327
+msgid "Player home"
+msgstr ""
+
+#: functions.php:1328
+msgid "Shop Homepage"
+msgstr ""
+
+#: functions.php:1523
+msgid "ThePlus Testimonial Options"
+msgstr ""
+
+#: functions.php:1530
+msgid "Author Text"
+msgstr ""
+
+#: functions.php:1542
+msgid "Enter title of testimonial."
+msgstr ""
+
+#: functions.php:1547
+msgid "Logo Upload"
+msgstr ""
+
+#: functions.php:1553
+msgid "Designation"
+msgstr ""
+
+#: functions.php:1554
+msgid "Enter author Designation"
+msgstr ""
+
+#: blog-single.php:9 page.php:11
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:152
+msgid "Back to top"
+msgstr ""
+
+#: footer.php:167
+msgid "Hit enter to search or ESC to close"
+msgstr ""
+
+#: single-matches.php:61
+msgid "match_bck"
+msgstr ""
+
+#: single-matches.php:73 single-matches.php:102
+msgid "team1_img"
+msgstr ""
+
+#: single-matches.php:86
+msgid "game_img"
+msgstr ""
+
+#: single-matches.php:90
+msgid "vs"
+msgstr ""
+
+#: single-matches.php:107
+msgid "player_img"
+msgstr ""
+
+#: single-matches.php:148 elementor/matches-list.php:333
+#: elementor/matches-slider.php:327 elementor/matches-slider.php:335
+msgid "img"
+msgstr ""
+
+#: single-matches.php:151 single-matches.php:206
+msgid "match"
+msgstr ""
+
+#: single-matches.php:151
+msgid "statistics"
+msgstr ""
+
+#: single-matches.php:157
+msgid "winner_img"
+msgstr ""
+
+#: single-matches.php:158 single-matches.php:163
+msgid "winner"
+msgstr ""
+
+#: single-matches.php:172 single-matches.php:177
+msgid "kills"
+msgstr ""
+
+#: single-matches.php:183 single-matches.php:206
+msgid "maps"
+msgstr ""
+
+#: single-matches.php:187
+msgid "rounds"
+msgstr ""
+
+#: single-matches.php:193 single-matches.php:198
+msgid "min"
+msgstr ""
+
+#: single-matches.php:194 single-matches.php:199
+msgid "duration"
+msgstr ""
+
+#: single-matches.php:218
+msgid "map_img"
+msgstr ""
+
+#: single-matches.php:231 single-matches.php:235
+#, php-format
+msgid "%1$d:%2$d"
+msgstr ""
+
+#: single-matches.php:311 single-matches.php:335
+msgid "match_img"
+msgstr ""
+
+#: single-matches.php:313
+msgid "prev match"
+msgstr ""
+
+#: single-matches.php:315 single-matches.php:333
+msgid "View match"
+msgstr ""
+
+#: single-matches.php:331
+msgid "next match"
+msgstr ""
+
+#: elementor/posts-slider.php:46
+msgid "SW - Posts Slider"
+msgstr ""
+
+#: elementor/posts-slider.php:126
+msgid "Title before"
+msgstr ""
+
+#: elementor/posts-slider.php:129 elementor/posts-slider.php:139
+#: elementor/matches-list.php:115 elementor/matches-slider.php:119
+#: elementor/posts-list.php:114
+msgid "Add title text"
+msgstr ""
+
+#: elementor/posts-slider.php:136
+msgid " Title after"
+msgstr ""
+
+#: elementor/posts-slider.php:162 elementor/posts-list.php:137
+#: elementor/posts-simple.php:127 elementor/posts-magazine.php:127
+#: elementor/shop-slider.php:132 elementor/shop-simple.php:139
+msgid "Categories"
+msgstr ""
+
+#: elementor/posts-slider.php:165 elementor/posts-list.php:140
+#: elementor/posts-simple.php:130 elementor/posts-magazine.php:130
+#: elementor/shop-slider.php:135 elementor/shop-simple.php:142
+msgid "Select categories"
+msgstr ""
+
+#: elementor/posts-slider.php:174 elementor/posts-slider.php:189
+#: elementor/matches-list.php:178 elementor/matches-slider.php:182
+#: elementor/isotope-gallery.php:189 elementor/players-slider.php:186
+#: elementor/posts-list.php:150 elementor/posts-simple.php:140
+#: elementor/posts-magazine.php:141 elementor/shop-slider.php:210
+#: elementor/shop-simple.php:217
+msgid "Style"
+msgstr ""
+
+#: elementor/posts-slider.php:180 elementor/posts-list.php:156
+#: elementor/posts-simple.php:174 elementor/posts-magazine.php:147
+#: elementor/shop-slider.php:217 elementor/shop-simple.php:224
+msgid "Number of items"
+msgstr ""
+
+#: elementor/posts-slider.php:183 elementor/posts-list.php:159
+#: elementor/posts-simple.php:177 elementor/posts-magazine.php:152
+#: elementor/shop-slider.php:220 elementor/shop-simple.php:227
+msgid "Add number of items"
+msgstr ""
+
+#: elementor/posts-slider.php:193
+msgid "Style 1"
+msgstr ""
+
+#: elementor/posts-slider.php:194
+msgid "Style 2"
+msgstr ""
+
+#: elementor/posts-slider.php:196
+msgid "Choose posts style"
+msgstr ""
+
+#: elementor/posts-slider.php:203 elementor/players-slider.php:227
+#: elementor/shop-slider.php:241
+msgid "Show Opacity"
+msgstr ""
+
+#: elementor/posts-slider.php:205 elementor/players-slider.php:229
+#: elementor/shop-slider.php:243
+msgid "On"
+msgstr ""
+
+#: elementor/posts-slider.php:206 elementor/players-slider.php:230
+#: elementor/shop-slider.php:244
+msgid "Off"
+msgstr ""
+
+#: elementor/posts-slider.php:215 elementor/players-slider.php:239
+#: elementor/shop-slider.php:253
+msgid "Card spacing"
+msgstr ""
+
+#: elementor/matches-list.php:45
+msgid "SW - Matches List"
+msgstr ""
+
+#: elementor/matches-list.php:112 elementor/matches-slider.php:116
+#: elementor/posts-list.php:111
+msgid " Title"
+msgstr ""
+
+#: elementor/matches-list.php:130 elementor/matches-slider.php:134
+msgid "Games"
+msgstr ""
+
+#: elementor/matches-list.php:133 elementor/matches-slider.php:137
+msgid "Select games"
+msgstr ""
+
+#: elementor/matches-list.php:139 elementor/matches-slider.php:143
+msgid "Match type"
+msgstr ""
+
+#: elementor/matches-list.php:143 elementor/matches-list.php:158
+#: elementor/matches-slider.php:147 elementor/matches-slider.php:162
+msgid "Show all"
+msgstr ""
+
+#: elementor/matches-list.php:144 elementor/matches-slider.php:148
+msgid "Upcoming"
+msgstr ""
+
+#: elementor/matches-list.php:145 elementor/matches-slider.php:149
+msgid "Playing"
+msgstr ""
+
+#: elementor/matches-list.php:146 elementor/matches-slider.php:150
+msgid "Ended"
+msgstr ""
+
+#: elementor/matches-list.php:148 elementor/matches-slider.php:152
+msgid "Add match type"
+msgstr ""
+
+#: elementor/matches-list.php:154 elementor/matches-slider.php:158
+msgid "Hide older than"
+msgstr ""
+
+#: elementor/matches-list.php:159 elementor/matches-slider.php:163
+msgid "1 week"
+msgstr ""
+
+#: elementor/matches-list.php:160 elementor/matches-slider.php:164
+msgid "2 weeks"
+msgstr ""
+
+#: elementor/matches-list.php:161 elementor/matches-slider.php:165
+msgid "3 weeks"
+msgstr ""
+
+#: elementor/matches-list.php:162 elementor/matches-slider.php:166
+msgid "1 month"
+msgstr ""
+
+#: elementor/matches-list.php:163 elementor/matches-slider.php:167
+msgid "2 months"
+msgstr ""
+
+#: elementor/matches-list.php:164 elementor/matches-slider.php:168
+msgid "3 months"
+msgstr ""
+
+#: elementor/matches-list.php:165 elementor/matches-slider.php:169
+msgid "6 months"
+msgstr ""
+
+#: elementor/matches-list.php:166 elementor/matches-slider.php:170
+msgid "1 year"
+msgstr ""
+
+#: elementor/matches-list.php:168 elementor/matches-slider.php:172
+msgid "Hide matches older than"
+msgstr ""
+
+#: elementor/matches-list.php:184 elementor/matches-slider.php:188
+msgid "Number of matches"
+msgstr ""
+
+#: elementor/matches-list.php:187 elementor/matches-slider.php:191
+msgid "Add number of matches"
+msgstr ""
+
+#: elementor/matches-list.php:268 elementor/matches-slider.php:269
+#: elementor/posts-list.php:216
+msgid "see all"
+msgstr ""
+
+#: elementor/matches-list.php:287 elementor/matches-slider.php:282
+msgid "No matches for selected values"
+msgstr ""
+
+#: elementor/matches-list.php:354 elementor/matches-slider.php:363
+msgid "VS"
+msgstr ""
+
+#: elementor/matches-slider.php:41
+msgid "SW - Matches Slider"
+msgstr ""
+
+#: elementor/isotope-gallery.php:41
+msgid "SW - Isotope Gallery"
+msgstr ""
+
+#: elementor/isotope-gallery.php:132
+msgid "Galleries"
+msgstr ""
+
+#: elementor/isotope-gallery.php:135
+msgid "Select galleries"
+msgstr ""
+
+#: elementor/isotope-gallery.php:142
+msgid "\"All\" tab"
+msgstr ""
+
+#: elementor/isotope-gallery.php:145
+msgid "Add text for \"All\" tab"
+msgstr ""
+
+#: elementor/isotope-gallery.php:152 elementor/videos-slider.php:136
+msgid "Text"
+msgstr ""
+
+#: elementor/isotope-gallery.php:155 elementor/videos-slider.php:139
+msgid "Add text"
+msgstr ""
+
+#: elementor/isotope-gallery.php:162 elementor/videos-slider.php:146
+msgid "Button text"
+msgstr ""
+
+#: elementor/isotope-gallery.php:165 elementor/videos-slider.php:149
+msgid "Add button text"
+msgstr ""
+
+#: elementor/isotope-gallery.php:172 elementor/videos-slider.php:156
+msgid "Button Link"
+msgstr ""
+
+#: elementor/isotope-gallery.php:174 elementor/videos-slider.php:158
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/isotope-gallery.php:196
+msgid "Show tabs"
+msgstr ""
+
+#: elementor/isotope-gallery.php:207
+msgid "Tabs position"
+msgstr ""
+
+#: elementor/isotope-gallery.php:211
+msgid "Right"
+msgstr ""
+
+#: elementor/isotope-gallery.php:212
+msgid "Center"
+msgstr ""
+
+#: elementor/isotope-gallery.php:214
+msgid "Add tabs position"
+msgstr ""
+
+#: elementor/isotope-gallery.php:220
+msgid "Number of rows"
+msgstr ""
+
+#: elementor/isotope-gallery.php:224
+msgid "One"
+msgstr ""
+
+#: elementor/isotope-gallery.php:225
+msgid "Two"
+msgstr ""
+
+#: elementor/isotope-gallery.php:226
+msgid "Three"
+msgstr ""
+
+#: elementor/isotope-gallery.php:227
+msgid "Four"
+msgstr ""
+
+#: elementor/isotope-gallery.php:229
+msgid "Add number of rows"
+msgstr ""
+
+#: elementor/isotope-gallery.php:236
+msgid "Padding between elements"
+msgstr ""
+
+#: elementor/isotope-gallery.php:360
+msgid "isotope_image"
+msgstr ""
+
+#: elementor/players-slider.php:41
+msgid "SW - Players Slider"
+msgstr ""
+
+#: elementor/players-slider.php:132
+msgid "Teams"
+msgstr ""
+
+#: elementor/players-slider.php:135
+msgid "Select teams"
+msgstr ""
+
+#: elementor/players-slider.php:143 elementor/players-slider.php:174
+msgid "Single player"
+msgstr ""
+
+#: elementor/players-slider.php:149
+msgid "Show only one player in the block."
+msgstr ""
+
+#: elementor/players-slider.php:177
+msgid "Select player"
+msgstr ""
+
+#: elementor/players-slider.php:192
+msgid "Number of players"
+msgstr ""
+
+#: elementor/players-slider.php:195
+msgid "Add number of players"
+msgstr ""
+
+#: elementor/players-slider.php:202 elementor/posts-simple.php:147
+#: elementor/shop-simple.php:251
+msgid "Spacing"
+msgstr ""
+
+#: elementor/players-slider.php:215 elementor/shop-slider.php:229
+msgid "Centered"
+msgstr ""
+
+#: elementor/players-slider.php:376
+msgid "Sorry, no players in selected team."
+msgstr ""
+
+#: elementor/posts-list.php:45
+msgid "SW - Posts List"
+msgstr ""
+
+#: elementor/posts-simple.php:46
+msgid "SW - Posts Simple"
+msgstr ""
+
+#: elementor/posts-simple.php:159 elementor/shop-simple.php:235
+msgid "Columns"
+msgstr ""
+
+#: elementor/init.php:172
+msgid "Skywarrior"
+msgstr ""
+
+#: elementor/posts-magazine.php:46
+msgid "SW - Posts Magazine"
+msgstr ""
+
+#: elementor/posts-magazine.php:351
+msgid "read more"
+msgstr ""
+
+#: elementor/shop-slider.php:42
+msgid "SW - Shop Slider"
+msgstr ""
+
+#: elementor/shop-slider.php:142 elementor/shop-simple.php:149
+msgid "Show"
+msgstr ""
+
+#: elementor/shop-slider.php:146 elementor/shop-simple.php:153
+msgid "All products"
+msgstr ""
+
+#: elementor/shop-slider.php:147 elementor/shop-simple.php:154
+msgid "Featured products"
+msgstr ""
+
+#: elementor/shop-slider.php:148 elementor/shop-simple.php:155
+msgid "On-sale products"
+msgstr ""
+
+#: elementor/shop-slider.php:155 elementor/shop-simple.php:162
+msgid "Order by"
+msgstr ""
+
+#: elementor/shop-slider.php:160 elementor/shop-simple.php:167
+msgid "Price"
+msgstr ""
+
+#: elementor/shop-slider.php:162 elementor/shop-simple.php:169
+msgid "Sales"
+msgstr ""
+
+#: elementor/shop-slider.php:169 elementor/shop-simple.php:176
+msgid "Order"
+msgstr ""
+
+#: elementor/shop-slider.php:173 elementor/shop-simple.php:180
+msgid "ASC"
+msgstr ""
+
+#: elementor/shop-slider.php:174 elementor/shop-simple.php:181
+msgid "DESC"
+msgstr ""
+
+#: elementor/shop-slider.php:182 elementor/shop-simple.php:189
+msgid "Hide free products"
+msgstr ""
+
+#: elementor/shop-slider.php:194 elementor/shop-simple.php:201
+msgid "Show hidden products"
+msgstr ""
+
+#: elementor/shop-slider.php:433 elementor/shop-simple.php:436
+#: woocommerce/content-product.php:71
+msgid "sale"
+msgstr ""
+
+#: elementor/shop-slider.php:464 elementor/shop-simple.php:467
+#: woocommerce/content-product.php:102
+msgid "add to cart"
+msgstr ""
+
+#: elementor/shop-simple.php:51
+msgid "SW - Shop Simple"
+msgstr ""
+
+#: elementor/videos-slider.php:46
+msgid "SW - Videos Slider"
+msgstr ""
+
+#: elementor/videos-slider.php:129
+msgid "Add header"
+msgstr ""
+
+#: elementor/videos-slider.php:180
+msgid "Twitch client id"
+msgstr ""
+
+#: elementor/videos-slider.php:183
+msgid "Add client id if you want to use Twitch videos"
+msgstr ""
+
+#: elementor/videos-slider.php:199
+msgid "URL"
+msgstr ""
+
+#: elementor/videos-slider.php:201
+msgid "Video url"
+msgstr ""
+
+#: elementor/videos-slider.php:208
+msgid "Cover image"
+msgstr ""
+
+#: elementor/videos-slider.php:217
+msgid "Videos List"
+msgstr ""
+
+#: elementor/videos-slider.php:222
+msgid "URL #1"
+msgstr ""
+
+#: elementor/videos-slider.php:223
+msgid "Video URL. Click the edit button to change this URL."
+msgstr ""
+
+#: includes/templates/header-search.php:11
+msgid "Start Typing..."
+msgstr ""
+
+#: includes/functions/categories-images/categories-images.php:28
+#: includes/functions/categories-images/categories-images.php:46
+#: includes/functions/categories-images/categories-images.php:123
+msgid "Image"
+msgstr ""
+
+#: includes/functions/categories-images/categories-images.php:31
+#: includes/functions/categories-images/categories-images.php:48
+#: includes/functions/categories-images/categories-images.php:105
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/functions/categories-images/categories-images.php:47
+#: includes/functions/categories-images/categories-images.php:102
+#: includes/functions/categories-images/categories-images.php:143
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/functions/categories-images/categories-images.php:49
+#: includes/functions/categories-images/categories-images.php:106
+msgid "Remove image"
+msgstr ""
+
+#: includes/functions/categories-images/categories-images.php:151
+msgid "Categories Images settings"
+msgstr ""
+
+#: includes/functions/categories-images/categories-images.php:152
+msgid "Excluded Taxonomies"
+msgstr ""
+
+#: includes/functions/categories-images/categories-images.php:157
+msgid "Please select the taxonomies you want to exclude from Categories Images"
+msgstr ""
+
+#: includes/functions/categories-images/categories-images.php:187
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/functions/categories-images/categories-images.php:192
+msgid "Categories Images"
+msgstr ""
+
+#. Name of the theme
+msgid "Respawn"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Build beautiful websites without writing a line of code. respawn has all the "
+"tools to create amazing websites with stunning designs and functionality."
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.skywarriorthemes.com/respawn/"
+msgstr ""
+
+#. Author of the theme
+msgid "Skywarrior Studios"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.skywarriorthemes.com/"
+msgstr ""
